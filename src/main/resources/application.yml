@@ -3,3 +3,11 @@ guru:
     username: JMS Username
     password: somepass
     url: SomeUrl
+
+# --- is a file separator, being used here to specify a spring profile for german
+---
+spring:
+  profiles: de
+guru:
+  jms:
+    username: JMS Username **IN GERMAN**
